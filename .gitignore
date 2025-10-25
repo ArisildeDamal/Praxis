@@ -1,0 +1,53 @@
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+*.tmp
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Visual Studio / VSCode
+.vs/
+.vscode/
+*.userprefs
+*.csproj.user
+
+# NuGet
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Local settings
+*.local.json
+*.env
+
+# Mod-specific exclusions
+# (optional - if you only want to track source)
+# Comment these out if you DO want to store your compiled mod
+Praxis.dll
+Praxis_*.dll
+Assets/
+config.json
